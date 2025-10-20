@@ -42,4 +42,134 @@
                 <div class="d-inline-flex align-items-center">
                     <a class="text-primary px-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="text-primary px-2" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="text-primary px-2" href="#"><i class="fab fa-tiktok"></i></a
+                    <a class="text-primary px-2" href="#"><i class="fab fa-tiktok"></i></a>
+                    <a class="text-primary pl-2" href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 text-primary"><span class="text-dark">Style</span>Beautiful</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <a href="price.html" class="nav-item nav-link">Precios</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Más</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="appointment.html" class="dropdown-item active">Citas</a>
+                            <a href="opening.html" class="dropdown-item">Horarios</a>
+                            <a href="team.html" class="dropdown-item">Nuestro Equipo</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonios</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+                <a href="#" class="btn btn-primary d-none d-lg-block">Reservar</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('img/appointment-header.jpg'); background-size: cover; background-position: center; height: 100vh; margin-bottom: 0;">
+        <div class="container text-center py-5" style="padding-top: 40vh;">
+            <h3 class="text-white display-3 mb-4">Reserva tu Cita</h3>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="index.html">Inicio</a></p>
+                <i class="far fa-circle px-3"></i>
+                <p class="m-0">Citas</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointment -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row mx-0 justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Citas</h6>
+                    <h1 class="mb-5">Agenda tu Servicio de Belleza</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center bg-appointment mx-0">
+                <div class="col-lg-6 py-5">
+                    <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
+                        <h1 class="text-white text-center mb-4">Reserva Ahora</h1>
+                        <form>
+                            <div class="form-row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control bg-transparent p-4" placeholder="Tu Nombre" required />
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control bg-transparent p-4" placeholder="Tu Correo" required />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Selecciona la Fecha" data-target="#date" data-toggle="datetimepicker"/>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Selecciona la Hora" data-target="#time" data-toggle="datetimepicker"/>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6">
+                                    <select class="custom-select bg-transparent px-4" style="height: 47px;">
+                                        <option selected>Selecciona un Servicio</option>
+                                        <option value="1">Limpieza Facial</option>
+                                        <option value="2">Tratamiento Capilar</option>
+                                        <option value="3">Manicure y Pedicure</option>
+                                        <option value="4">Masaje Relajante</option>
+                                        <option value="5">Maquillaje Profesional</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Reservar Cita</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Open Hours -->
+    <div class="container-fluid py-5">
+        <div class="row no-gutters">
+            <div class="col-lg-6">
+                <div style="height: 100vh;">
+                    <img class="w-100 h-100" src="img/opening.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+                <div class="hours-text bg-light p-5">
+                    <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Horarios</h6>
+                    <h1 class="mb-4">Tu Espacio de Bienestar y Cuidado</h1>
+                    <p>En <strong>StyleBeautiful</strong> trabajamos para que te sientas bien contigo misma. Ofrecemos atención personalizada, productos de alta calidad y un ambiente acogedor para realzar tu belleza natural.</p>
+                    <ul class="list-inline">
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Lunes – Viernes : 9:00 AM - 7:00 PM</li>
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Sábado : 9:00 AM - 6:00 PM</li>
+                        <li class="h6 py-1"><i class="far fa-circle text-primary mr-3"></i>Domingo : Cerrado</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary mt-2">Reserva Ahora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- (footer tal como lo tenías) -->
+
+</body>
+</html>
